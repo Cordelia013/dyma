@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua_compatible" content="ie=edge"/>
+    <title>align & float</title>
+    <style>
+        
+
+        .elem {
+            background: #eeeeee;
+            border: 1px solid #555555;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .container{
+           max-width:1000px;
+            margin:auto;
+
+
+        }
+        .elem1{
+            float: left;
+            width: 70%;
+        }
+
+        .elem2{
+            float: right;
+            width:30%;
+        }
+
+        .elem3{
+          
+            float: left;
+            width: 30%;
+        }
+        .elem4{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="elem">header</div>
+    <div class="elem elem1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cumque quo necessitatibus laudantium accusamus vero sint eveniet recusandae voluptatem nam?</div>
+    <div class="elem elem2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, quaerat.</div>
+
+    <div class="elem elem3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, adipisci!</div>
+    <div class="elem elem4">footer</div>
+</body>
+</html>
